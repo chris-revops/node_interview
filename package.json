@@ -1,0 +1,18 @@
+{
+  "name": "make_react",
+  "version": "1.0.0",
+  "description": "Let's build react from scratch",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "compile": "npm run start",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
+  }
+}
